@@ -1,6 +1,4 @@
-# Android Chrome (BrowserStack) + Percy Visual Test Scaffold
-
-This scaffold runs a WebdriverIO test on a BrowserStack Android device (Chrome browser) and takes a Percy visual snapshot of https://www.amazon.in.
+# Android Chrome (BrowserStack) + Percy Visual Test 
 
 ## What it does
 - Starts a BrowserStack remote session for an Android device (Chrome).
@@ -33,14 +31,6 @@ This scaffold runs a WebdriverIO test on a BrowserStack Android device (Chrome b
      - `BROWSERSTACK_BUILD_NAME`
 5. Run tests:
    ```bash
-   npx wdio run wdio.conf.js
+   npm test
    ```
 
-## Where to find build URLs
-- BrowserStack session link: the test prints a BrowserStack Automate session URL to stdout. Copy the build/session URL into your assignment sheet.
-- Percy: check your Percy project dashboard after the run for the snapshot run URL.
-
-## Notes
-- This scaffold uses `@percy/webdriverio` which uploads snapshots to Percy. Ensure `PERCY_TOKEN` is set.
-- BrowserStack Automate requires valid credentials. For the mobile browser run, no app upload is necessary.
-- If you want a native app test instead, regenerate with Option 2.
