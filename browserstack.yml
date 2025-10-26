@@ -7,8 +7,8 @@ device: "Google Pixel 7"
 os_version: "13.0"
 
 # BrowserStack credentials (recommended via env vars)
-userName: "manishasardar_HBC0EW"
-accessKey: "yJ2iAmvXYSHurcFJqp4L"
+userName: "browserstack_username"
+accessKey: "browser-key"
 
 # Optional advanced configuration
 appiumVersion: "2.0.0"
