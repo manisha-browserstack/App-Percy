@@ -1,0 +1,14 @@
+projectName: "App Percy Assignment - Android Chrome"
+buildName: "Percy-BStack-Android-Chrome"
+sessionName: "Amazon Android Chrome Snapshot"
+platformName: "Android"
+browserName: "Chrome"
+device: "Google Pixel 7"
+os_version: "13.0"
+
+# BrowserStack credentials (recommended via env vars)
+userName: "manishasardar_HBC0EW"
+accessKey: "yJ2iAmvXYSHurcFJqp4L"
+
+# Optional advanced configuration
+appiumVersion: "2.0.0"
